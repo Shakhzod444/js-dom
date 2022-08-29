@@ -1,0 +1,446 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   align-items: center;
+
+
+}
+
+header {
+   width: 100%;
+   height: 47px;
+   background-color: #363636;
+   top: 0;
+   align-items: center;
+   z-index: 100;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+
+}
+
+.left {
+   height: 36px;
+   width: 30px;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 10px;
+   align-items: center;
+   background-size: 100%;
+   filter: invert(10%);
+
+}
+
+.centre p a {
+   text-decoration: none;
+   margin: 20px;
+   font-size: 14px;
+   color: #bcbcbc;
+}
+
+.centre {
+   display: flex;
+}
+
+.img {
+   filter: invert(90%);
+   margin-left: 10px;
+}
+
+.right {
+   margin-left: 25px;
+   margin-right: 10px;
+
+}
+
+.fon {
+
+   height: 1500px;
+   width: 100%;
+   background-color: rgb(0, 170, 255);
+   /* display: flex; */
+}
+
+.fon1 {
+   height: 220px;
+   background-color: rgb(255, 255, 255);
+   padding: 50px 80px;
+
+}
+
+.text_new p {
+   font-weight: 500;
+   font-size: 24px;
+   color: rgb(255, 81, 0);
+
+}
+
+.text_iphone {
+   font-size: 26px;
+   font-weight: 500;
+}
+
+.min-price p {
+   color: rgb(83, 81, 81);
+   font-size: 11px;
+   margin-top: 10px;
+}
+
+.fon2 {
+   height: 85.5%;
+   background-color: rgb(255, 255, 255);
+   padding-top: 20px;
+}
+
+.back_img {
+
+   height: 570px;
+   width: 88%;
+   background-image: url(./img/iphone-13-pro-model-select-202207-6-1inch_FMT_WHH.jfif);
+   background-size: 160%;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 0 auto;
+   border-radius: 10px;
+   position: sticky;
+   filter: invert(10%);
+   top: 80px;
+}
+.img2 {
+   background-image: url(./img/iphone-finish-silver.jfif);
+   background-size: 100%;
+}
+.img3 {
+   background-image: url(./img/iphone-finish-gold.jfif);
+}
+.img4 {
+   background-image: url(./img/iphone-13-pro-grey.jfif);
+
+}
+.img5 {
+   background-image: url(./img/iphone-13-pro-sirera-blue.jfif);
+}
+.fon3 {
+   height: 100%;
+   width: 30%;
+   background-color: cadetblue;
+
+}
+
+.box {
+   height: 1750px;
+   width: 100%;
+   
+   display: flex;
+}
+
+.apple_1_2 {
+   height: 100%;
+   width: 70%;
+ 
+}
+
+.apple3 {
+   height: 100%;
+   width: 30%;
+}
+
+.fon3_top1 {
+   height: 40px;
+   width: 300px;
+   background-color: rgb(221, 221, 223);
+   border-radius: 20px;
+   margin: 50px 105px 20px;
+   transition: 1s;
+}
+
+.fon3_top1 p {
+   font-size: 14px;
+   padding-top: 10px;
+   padding-left: 20px;
+
+}
+
+.fon3_top1:hover {
+   background-color: rgb(209, 209, 209);
+
+}
+
+.fon3_top2 {
+   height: 40px;
+   width: 330px;
+   background-color: rgb(221, 221, 223);
+   border-radius: 20px;
+   margin: 10px 75px;
+   transition: 1s;
+}
+
+.fon3_top2:hover {
+   background-color: rgb(209, 209, 209);
+
+}
+
+.fon3_top2 p {
+   font-size: 14px;
+   padding-top: 10px;
+   padding-left: 40px;
+}
+
+.fon_center p {
+   color: #363636;
+}
+
+.fon_center {
+   font-size: 26px;
+   margin: 170px 50px 30px;
+}
+
+.f_c_iphone1 {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   background-color: white;
+   margin: 15px auto;
+   display: flex;
+   border: 2px solid black;
+   transition: 1s;
+}
+
+.f_c_iphone1:hover {
+   border: 2px solid rgb(0, 55, 255);
+
+}
+
+.f_c_left {
+   height: 100%;
+   width: 55%;
+}
+
+.f_c_right {
+   height: 100%;
+   width: 50%;
+}
+
+.f_c_iphone2 {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   border: 2px solid black;
+   margin: 15px auto;
+   display: flex;
+   transition: 1s;
+   background-color: white;
+
+}
+
+.f_c_iphone2:hover {
+   border: 2px solid rgb(0, 55, 255);
+
+}
+
+.f_c_left {
+   padding: 30px 20px;
+
+}
+
+.f_c_left p {
+   color: #5a5a5a;
+   font-size: 14px
+}
+
+.f_c_left h2 {
+   font-size: 19px;
+
+}
+
+.f_c_right p {
+   font-size: 12px;
+   padding: 10px 15px;
+   margin: 5px;
+   color: #636363;
+}
+
+.f_c_iphone3 {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   background-color: rgba(201, 201, 201, 0.781);
+   margin: 25px auto;
+   padding: 26px;
+   transition: 1s;
+}
+
+.f_c_iphone3 h3 {
+   font-size: 18px;
+
+}
+
+.f_c_iphone3 p {
+   font-size: 14px;
+}
+
+.f_c_iphone3:hover {
+   background-color: rgb(255, 255, 255);
+}
+
+.fon_center_down {
+   font-size: 26px;
+   margin: 80px 50px 0;
+   display: flex;
+}
+
+.fon_center_down p {
+   color: #5a5a5a;
+
+}
+
+.color_phone {
+   font-weight: 500;
+   font-size: 24px;
+   margin: 20px 50px;
+   display: flex;
+}
+
+.box_colors {
+   display: flex;
+   margin: 20px 50px;
+}
+
+.box_1 {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-image: url(./img/iphone-13-pro-finish-green.jfif);
+   background-position: center;
+   background-size: 100%;
+}
+
+.box_2 {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-image: url(./img/iphone-finish-silver.jfif);
+   background-position: center;
+   background-size: 100%;
+}
+
+.box_3 {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-image: url(./img/iphone-finish-gold.jfif);
+   background-position: center;
+   background-size: 100%;
+}
+
+.box_4 {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-image: url(./img/iphone-finish-graphite.jfif);
+   background-position: center;
+   background-size: 100%;
+}
+
+.box_5 {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+   background-image: url(./img/iphone-finish-blue-2021.jfif);
+   background-position: center;
+   background-size: 100%;
+}
+
+.bottom_fon{
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 30px;
+   margin: 160px 30px 0 ;
+}
+
+.str {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   border: 2px solid black;
+   margin: 15px auto;
+   display: flex;
+   transition: 1s;
+   background-color: white;
+   font-size: 24px;
+   padding-left: 20px;
+   transition: .4s ease;
+}
+
+.str:hover{
+   border: 2px solid rgb(0, 140, 255);
+}
+
+
+* code {
+   margin-left: 100px;
+   font-size: 13px;
+   margin-right: 20px;
+}
+.str2 {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   border: 2px solid black;
+   margin: 15px auto;
+   display: flex;
+   transition: 1s;
+   background-color: white;
+   font-size: 24px;
+   padding-left: 20px;
+   transition: .4s ease;
+}
+
+.str2:hover{
+   border: 2px solid rgb(0, 140, 255);
+}
+
+.str3 {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   border: 2px solid black;
+   margin: 15px auto;
+   display: flex;
+   transition: 1s;
+   background-color: white;
+   font-size: 24px;
+   padding-left: 20px;
+   transition: .4s ease;
+}
+
+.str3:hover{
+   border: 2px solid rgb(0, 140, 255);
+}
+
+
+
+.str4 {
+   height: 100px;
+   width: 400px;
+   border-radius: 20px;
+   border: 2px solid black;
+   margin: 15px auto;
+   display: flex;
+   transition: 1s;
+   background-color: white;
+   font-size: 24px;
+   padding-left: 20px;
+   transition: .4s ease;
+}
+
+.str4:hover{
+   border: 2px solid rgb(0, 140, 255);
+}
